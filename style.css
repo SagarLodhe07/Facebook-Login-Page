@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #f0f2f5;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 280px;
+    /* margin-top: 20px; */
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #ddd;
+    padding: 12px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    font-size: large;
+}
+
+button {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #165ec9;
+}
+
+p a {
+    font-size: medium;
+    color: #1877f2;
+    text-decoration: none;
+
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+p span {
+    margin: 0 5px;
+}
